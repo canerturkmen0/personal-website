@@ -1,0 +1,134 @@
+/* REMOVE DEFAULT BUTTON STYLE */
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+html {
+  background: url('../images/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* MAIN */
+.main {
+  display: flex;
+}
+
+/* ME */
+
+.me {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  height: 70vh;
+  margin: 2%;
+  box-shadow: 9px 8px 15px 1px rgba(0,0,0,0.25);
+}
+
+.text * {
+  text-align: center;
+  padding: 10px;
+}
+
+.me img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3.5px solid white;
+  box-shadow: 9px 8px 15px 1px rgba(0,0,0,0.75);
+}
+
+.me .social {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+
+.me .social a {
+  flex: 1;
+  font-size: 24px;
+  color: black;
+}
+
+.me .social a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.me .social a i {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Right Column */
+.rightColumn {
+  position: relative;
+  flex: 3;
+  margin-top: 2%;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.rightColumn .about {
+  box-shadow: 9px 8px 15px 1px rgba(0,0,0,0.25);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightColumn p {
+  display: flex;
+  font-size: 18px;
+  width: 80%;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+
+/* BUTTONS */
+.buttons {
+  position: absolute;
+  bottom: 0;
+  margin-top: 200px;
+  margin-left: 30px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons button {
+  border: 1px solid black;
+  padding: 20px 0;
+  box-shadow: 9px 8px 15px 1px rgba(0,0,0,0.15);
+}
+
+.buttons button:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.buttons button:active {
+  transform: scale(0.95);
+}
+
+.buttons button.did {
+  margin-bottom: 30px;
+}

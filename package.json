@@ -1,0 +1,32 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "start": "node ./start.js",
+    "dev": "nodemon ./start.js"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canerturkmen0/personal-website.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/canerturkmen0/personal-website/issues"
+  },
+  "homepage": "https://github.com/canerturkmen0/personal-website#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "pug": "^2.0.4"
+  }
+}
