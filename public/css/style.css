@@ -129,6 +129,63 @@ body {
   transform: scale(0.95);
 }
 
+.buttons a {
+	color: black;
+	text-decoration: none;
+}
+
 .buttons button.did {
   margin-bottom: 30px;
+	width: 100%;
+}
+
+/******************************************************************************/
+/*																	did.pug                                   */
+.did {
+	padding: 2%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.burger-builder {
+	width: 75%;
+	background: rgba(0,0,0,0.5);
+	border-radius: 5px;
+	box-shadow: 9px 8px 15px 1px rgba(0,0,0,0.5);
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2%;
+}
+
+.burger-builder img {
+	width: 80%;
+	height: 80%;
+}
+
+.burger-builder h1 {
+	color: white;
+	letter-spacing: 3px;
+}
+
+.burger-builder a {
+	color: white;
+	border-bottom: 1px solid white;
+	padding: 10px;
+}
+
+.burger-builder button {
+	transition: letter-spacing 1s;
+}
+
+.burger-builder a:hover > button {
+	letter-spacing: 1.5px;
+.}
+
+
+.burger-builder a:active {
+  transform: scale(0.95);
 }

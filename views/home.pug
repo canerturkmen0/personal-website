@@ -3,7 +3,7 @@ extends layout
 block content
   .main
     .me
-      img(src="../images/me.jpg")
+      img(src="../images/me.jpg" alt="Caner Türkmen")
       .text
         h1 Caner Türkmen
         h2 Javascript Enthusiast
@@ -19,5 +19,6 @@ block content
       .about
         p I am a 3rd-year student in Akdeniz University Computer Engineering Department. I have a huge enthusiasm for Javascript and also I'm very eager to work on cutting-edge web technologies. I am trying to learn and experience every possible technology to find out what I like to do and make correct decisions about my career. Recently, I'm working on React and NodeJS. 
       .buttons
-        button.did WHAT I'VE DONE
+        a(href='/did')
+          button.did WHAT I'VE DONE
         button CONTACT
